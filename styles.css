@@ -1,0 +1,16 @@
+body{
+    background:linear-gradient(black,purple);
+    background-attachment: fixed;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h1{
+    font-size:100px;
+    text-align:center
+}
+
+h2{
+    text-align:center;
+    font-size:40px;
+}
