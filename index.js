@@ -16,6 +16,12 @@ userSubmit.onclick = function(){
     if(age <= 0 ){
         result.innerHTML = `Just not possible is it?`
     }
+    else if (age >= 100){
+        result.innerHTML = `You are ${age}, that is very very old?`
+    }
+    else if (age >= 50){
+        result.innerHTML = `You are ${age}, that is quite old? You can still buy alcohol though.`
+    }
     else if(age >= 18){
         result.innerHTML = `Your age is ${age}, you can buy alcohol in the UK!`
 
@@ -26,7 +32,7 @@ userSubmit.onclick = function(){
     else if (age < 18){
         result.innerHTML = `You are ${age}, not legal buddy.`
     }
-
+    
 
 
 }
